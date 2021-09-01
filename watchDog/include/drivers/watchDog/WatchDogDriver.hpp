@@ -13,9 +13,9 @@ namespace Drivers {
       /// @brief kick the watch dog
       virtual void kick()=0;
 
-      /// @brief reset the busy count If we don't do valid work at least once every 1000 kicks
-      /// the system will reset.
-      virtual void resetBusyCount()=0;
+      /// @brief put the processor to sleep until the next interrupt or the watchdog triggers
+      ///        an warning interrupt.
+      virtual void waitForInterrupt();
 
       /// @brief set the watchdog to suspend on debug.
       virtual void disableOnDebug()=0;

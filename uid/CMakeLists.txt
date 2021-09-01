@@ -17,4 +17,4 @@ target_sources(driverInterfaceUid
             include/drivers/uid/ProcessorSerial.hpp
         )
 
-set_target_properties(driverUid PROPERTIES LINKER_LANGUAGE CXX)
+set_target_properties(driverInterfaceUid PROPERTIES LINKER_LANGUAGE CXX)

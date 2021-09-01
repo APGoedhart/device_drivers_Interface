@@ -3,6 +3,7 @@
 
 #include <time/Ticks.hpp>
 #include <drivers/timers/TimTypes.hpp>
+#include <drivers/clocks/ClockTypes.hpp>
 
 namespace Drivers {
   /// @brief Called when one of the alarms associated with one of the channels. fires.

@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 target_link_libraries( driverInterfaceSerial
         mod::dataStructures
-        mod::driverGpio
+        mod::driverInterfaceGpio
         )
 
 target_include_directories(driverInterfaceSerial

@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 target_link_libraries(driverInterfaceCan
         mod::dataStructures
-        mod::driverGpio)
+        mod::driverInterfaceGpio)
 
 target_include_directories(driverInterfaceCan
         PRIVATE

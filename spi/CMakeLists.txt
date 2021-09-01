@@ -12,7 +12,7 @@ target_include_directories(driverInterfaceSpi
         )
 
 
-target_sources(driverSpi
+target_sources(driverInterfaceSpi
         PRIVATE
         PUBLIC
             include/drivers/spi/SpiTypes.hpp

@@ -3,8 +3,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 target_link_libraries(driverInterfaceDma
         mod::pointers
-        mod::dataStructures
-        mod::driverInterrupts)
+        mod::dataStructures)
 
 target_include_directories(driverInterfaceDma
         PRIVATE
