@@ -15,7 +15,7 @@ namespace Drivers {
 
       /// @brief put the processor to sleep until the next interrupt or the watchdog triggers
       ///        an warning interrupt.
-      virtual void waitForInterrupt();
+      virtual void waitForInterrupt()=0;
 
       /// @brief set the watchdog to suspend on debug.
       virtual void disableOnDebug()=0;
