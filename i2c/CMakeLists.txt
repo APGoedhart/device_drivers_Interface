@@ -4,6 +4,8 @@ set(CMAKE_CXX_STANDARD 17)
 target_link_libraries(driverInterfaceI2c
            mod::dataStructures)
 
+set_target_properties(driverInterfaceI2c PROPERTIES LINKER_LANGUAGE CXX)
+
 target_include_directories(driverInterfaceI2c
         PRIVATE
           ${CMAKE_CURRENT_SOURCE_DIR}/include

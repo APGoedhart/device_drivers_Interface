@@ -5,11 +5,11 @@ target_link_libraries( driverInterfaceSerial
         mod::dataStructures
         mod::driverInterfaceGpio
         )
+set_target_properties(driverInterfaceSerial PROPERTIES LINKER_LANGUAGE CXX)
 
 target_include_directories(driverInterfaceSerial
         PRIVATE
-          include
-          ${CMAKE_CURRENT_SOURCE_DIR}/../dma/include
+          ${CMAKE_CURRENT_SOURCE_DIR}/include
         PUBLIC
           ${CMAKE_CURRENT_SOURCE_DIR}/include
         )

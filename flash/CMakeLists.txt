@@ -4,6 +4,7 @@ set(CMAKE_CXX_STANDARD 17)
 target_link_libraries(driverInterfaceFlash
         )
 
+set_target_properties(driverInterfaceFlash PROPERTIES LINKER_LANGUAGE CXX)
 
 target_include_directories(driverInterfaceFlash
         PRIVATE

@@ -15,8 +15,6 @@ namespace Drivers {
   ///        @param lineIdle : bool The callback was triggered because the line timeout out waiting for the
   ///                          next character and there was data in the rx buffer.
   using UsartDataReceivedCb = Mem::Callback<8, void(bool)>;
-
-
   /// Interface for the USART driver
   template<size_t BUF_SIZE=256U>
   class UsartDriver {

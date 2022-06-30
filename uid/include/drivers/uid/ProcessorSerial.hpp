@@ -57,4 +57,4 @@ namespace Drivers {
 }
 
 
-#endif //SPS081_BMS_STM32F103_PROCESSORSERIAL_HPP
+#endif

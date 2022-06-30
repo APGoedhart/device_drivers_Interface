@@ -4,6 +4,8 @@ set(CMAKE_CXX_STANDARD 17)
 target_link_libraries(driverInterfaceStatusLeds
    mod::dataTypes
         )
+set_target_properties(driverInterfaceStatusLeds PROPERTIES LINKER_LANGUAGE CXX)
+
 
 target_include_directories(driverInterfaceStatusLeds
         PRIVATE

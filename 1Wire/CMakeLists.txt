@@ -12,6 +12,7 @@ target_include_directories(driverInterface1Wire
           ${CMAKE_CURRENT_SOURCE_DIR}/include
         )
 
+set_target_properties(driverInterface1Wire PROPERTIES LINKER_LANGUAGE CXX)
 
 target_sources(driverInterface1Wire
         PUBLIC

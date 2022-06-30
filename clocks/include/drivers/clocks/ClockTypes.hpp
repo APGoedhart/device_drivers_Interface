@@ -30,6 +30,7 @@ namespace Drivers {
     Speed48Mhz [[maybe_unused]] = 48000000,
     Speed64Mhz [[maybe_unused]] = 64000000,
     Speed72Mhz [[maybe_unused]] = 72000000,
+    Speed84Mhz [[maybe_unused]] = 84000000,
     Speed96Mhz [[maybe_unused]] = 96000000,
     Speed144Mhz [[maybe_unused]]= 144000000,
     HsiDefault = Speed8Mhz,

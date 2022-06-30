@@ -5,13 +5,15 @@ target_link_libraries(driverInterfaceDma
         mod::pointers
         mod::dataStructures)
 
+set_target_properties(driverInterfaceDma PROPERTIES LINKER_LANGUAGE CXX)
+
+
 target_include_directories(driverInterfaceDma
         PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/include
         PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
         )
-
 
 target_sources(driverInterfaceDma
         PRIVATE

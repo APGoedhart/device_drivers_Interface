@@ -5,6 +5,9 @@ target_link_libraries(driverInterfaceAdc
         mod::dataStructures
         mod::driverInterfaceGpio)
 
+set_target_properties(driverInterfaceAdc PROPERTIES LINKER_LANGUAGE CXX)
+
+
 target_include_directories(driverInterfaceAdc
         PRIVATE
           ${CMAKE_CURRENT_SOURCE_DIR}/include

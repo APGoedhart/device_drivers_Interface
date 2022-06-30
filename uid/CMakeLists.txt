@@ -3,6 +3,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 target_link_libraries(driverInterfaceUid
         )
+set_target_properties(driverInterfaceUid PROPERTIES LINKER_LANGUAGE CXX)
+
 target_include_directories(driverInterfaceUid
         PRIVATE
           ${CMAKE_CURRENT_SOURCE_DIR}/include

@@ -4,6 +4,7 @@ set(CMAKE_CXX_STANDARD 17)
 target_link_libraries(driverInterfaceWatchDog
         PUBLIC
 )
+set_target_properties(driverInterfaceWatchDog PROPERTIES LINKER_LANGUAGE CXX)
 
 target_include_directories(driverInterfaceWatchDog
         PRIVATE

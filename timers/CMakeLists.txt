@@ -4,6 +4,9 @@ set(CMAKE_CXX_STANDARD 17)
 target_link_libraries(driverInterfaceTimers
         mod::time
         )
+set_target_properties(driverInterfaceTimers PROPERTIES LINKER_LANGUAGE CXX)
+
+
 target_include_directories(driverInterfaceTimers
         PRIVATE
           ${CMAKE_CURRENT_SOURCE_DIR}/include

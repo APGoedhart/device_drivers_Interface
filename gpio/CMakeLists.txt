@@ -3,6 +3,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 target_link_libraries(driverInterfaceGpio
       )
+set_target_properties(driverInterfaceGpio PROPERTIES LINKER_LANGUAGE CXX)
 
 target_include_directories(driverInterfaceGpio
         PRIVATE

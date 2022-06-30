@@ -4,6 +4,8 @@ set(CMAKE_CXX_STANDARD 17)
 target_link_libraries(driverInterfaceRtc
         mod::time)
 
+set_target_properties(driverInterfaceRtc PROPERTIES LINKER_LANGUAGE CXX)
+
 target_include_directories(driverInterfaceRtc
         PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/include

@@ -3,7 +3,6 @@
 
 #include <cstdint>
 #include <callbacks/Callback.hpp>
-#include <cmsis/Processor.hpp>
 
 namespace Drivers {
 
@@ -38,7 +37,6 @@ namespace Drivers {
       Bits2 [[maybe_unused]] =2U
   };
 
-  using UsartInterruptHandler = Mem::Callback<8, void(Drivers::IRQn)>;
 
 }
 
